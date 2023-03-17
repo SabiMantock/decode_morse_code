@@ -41,3 +41,11 @@ def decode_sentence(morse_code_sentence)
   end
   decoded_words.join(' ')
 end
+
+def decode_word(morse_code_word)
+  morse_characters = morse_code_word.split
+  decoded_characters = morse_characters.map do |morse_character|
+    decode_word(morse_word)
+  end
+  decoded_characters.join
+end
