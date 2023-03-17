@@ -12,6 +12,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -76,6 +77,14 @@ Install this project with:
   bundle install
 ```
 
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  ruby decode_morse.rb
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -106,7 +115,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [N/A]
+- N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +133,9 @@ Feel free to check the [issues page](../../../issues).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project by giving it a ⭐ on github
+> Write a message to encourage readers to support your project
+
+If you like this project add ⭐ to the github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
