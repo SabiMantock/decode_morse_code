@@ -32,3 +32,12 @@ def decode_char(morse_code)
 end
 
 puts decode_char('--')
+
+
+def decode_sentence(morse_code_sentence)
+  morse_words = morse_code_sentence.split('   ')
+  decoded_words = morse_words.map do |morse_word|
+    decode_word(morse_word)
+  end
+  decoded_words.join(' ')
+end
